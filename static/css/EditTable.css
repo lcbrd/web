@@ -6,27 +6,35 @@
 }
 
 .table-remove {
-  color: #700;
+  color: #800;
   cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 45;
 }
 .table-remove:hover {
   color: #f00;
 }
 
-.table-up, .table-down {
+.table-edit {
   color: #007;
   cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20;
 }
-.table-up:hover, .table-down:hover {
+.table-edit:hover{
   color: #00f;
 }
-
+.table-entry {
+  cursor: pointer;
+}
 .table-add {
   color: #070;
   cursor: pointer;
   position: absolute;
-  top: 8px;
-  right: 0;
+  top: 10px;
+  right: 70;
 }
 .table-add:hover {
   color: #0b0;

@@ -18,3 +18,5 @@ def home(request):
     return render(request,'home.html')
 def main(request):
     return render(request,'main.html')
+def ttable(request):
+    return render(request,'teather_edit1.html')
